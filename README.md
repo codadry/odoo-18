@@ -20,13 +20,7 @@ Este repositorio despliega una instancia de **Odoo 18** junto con **PostgreSQL 1
 
 ## 🚀 Cómo iniciar
 
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
-   cd tu-repositorio
-````
-
-2. Verifica o crea el archivo `.env` con el siguiente contenido:
+1. Verifica o crea el archivo `.env` con el siguiente contenido:
 
    ```env
    ODOO_HOST=db
@@ -34,13 +28,13 @@ Este repositorio despliega una instancia de **Odoo 18** junto con **PostgreSQL 1
    ODOO_PASSWORD=odoo
    ```
 
-3. Levanta los servicios:
+2. Levanta los servicios:
 
    ```bash
    docker compose up -d
    ```
 
-4. Accede a Odoo en tu navegador:
+3. Accede a Odoo en tu navegador:
 
    ```
    http://tu-ip:8201
